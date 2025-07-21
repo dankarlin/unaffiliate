@@ -1,0 +1,96 @@
+@import 'bootstrap/dist/css/bootstrap.min.css';
+@import 'bootstrap-icons/font/bootstrap-icons.css';
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+body {
+  margin: 0;
+  font-family: var(--bs-body-font-family);
+}
+
+.hero-section {
+  background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+.brand-logo {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #495057;
+  margin-bottom: 2rem;
+}
+
+.hero-title {
+  font-size: 2.5rem;
+  font-weight: 600;
+  color: #212529;
+  margin-bottom: 1.5rem;
+}
+
+.hero-subtitle {
+  font-size: 1.25rem;
+  color: #6c757d;
+  margin-bottom: 2rem;
+  line-height: 1.6;
+}
+
+.cta-button {
+  font-size: 1.1rem;
+  padding: 12px 30px;
+  border-radius: 8px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 500;
+}
+
+.section-padding {
+  padding: 80px 0;
+}
+
+.feature-icon {
+  font-size: 3rem;
+  color: #6f42c1;
+  margin-bottom: 1rem;
+}
+
+.feature-card {
+  text-align: center;
+  padding: 2rem;
+  border-radius: 12px;
+  background: white;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease;
+}
+
+.feature-card:hover {
+  transform: translateY(-5px);
+}
+
+.manifesto-section {
+  background: #f8f9fa;
+}
+
+.manifesto-text {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #495057;
+}
+
+.footer {
+  background: #212529;
+  color: #adb5bd;
+  padding: 40px 0;
+}
+
+.footer a {
+  color: #adb5bd;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  color: #fff;
+}

@@ -1,0 +1,16 @@
+{
+  "name": "Unaffiliate - Break Free from Brand Bondage",
+  "short_name": "Unaffiliate",
+  "description": "Psychological distance from commercial brands",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#495057",
+  "icons": [
+    {
+      "src": "vite.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}
